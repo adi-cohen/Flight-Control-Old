@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlightControlWeb", "FlightControlWeb\FlightControlWeb.csproj", "{65BB3ABA-42F9-4A8F-9A03-69C6C7AF3972}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65BB3ABA-42F9-4A8F-9A03-69C6C7AF3972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65BB3ABA-42F9-4A8F-9A03-69C6C7AF3972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65BB3ABA-42F9-4A8F-9A03-69C6C7AF3972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65BB3ABA-42F9-4A8F-9A03-69C6C7AF3972}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4420F0AE-1E74-4B08-8942-8C7E6D43823B}
+	EndGlobalSection
+EndGlobal
