@@ -9,9 +9,9 @@ namespace FlightControlWeb.Models
     {
         public int Passengers { get; set; }
         public string CompanyName { get; set; }
-
-        // add initial location
-        //add segmments
+        public double StartLongitude { get; set; }
+        public double StartLatitude { get; set; }
+        public DateTime StartDate { get; set; }
 
     }
 }

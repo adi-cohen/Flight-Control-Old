@@ -7,8 +7,16 @@ namespace FlightControlWeb.Models
 {
     public class FlightsManager : IFlightsManager
     {
-        private static List<Flight> flights = new List<Flight>();
-        public void DeleteFlight(int id)
+        private static List<Flight> flights = new List<Flight>()
+        {
+            new Flight {FlightId = 1, Passengers=1,Longitude=34.4,Latitude=56.6,CompanyName="company1", Date = DateTime.Now , IsExternal=true},
+            new Flight {FlightId = 2, Passengers=2,Longitude=34.4,Latitude=56.6,CompanyName="company2", Date = DateTime.Now , IsExternal=true}
+
+        };
+
+   
+      
+    public void DeleteFlight(int id)
         {
             //if empty
             if (!flights.Any())
