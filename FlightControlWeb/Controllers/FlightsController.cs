@@ -13,6 +13,7 @@ namespace FlightControlWeb.Controllers
     public class FlightsController : ControllerBase
     {
         private IFlightsManager manager;
+
         // GET: api/Flights
         [HttpGet]
         public IEnumerable<Flight> Get()

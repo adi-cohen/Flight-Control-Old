@@ -7,7 +7,9 @@ namespace FlightControlWeb.Models
 {
     public class FlightsManager : IFlightsManager
     {
+
         private static List<Flight> flights = new List<Flight>();
+
         public void DeleteFlight(int id)
         {
             //if empty
